@@ -60,10 +60,10 @@ def analyze_sentiment_custom(text):
   else:
     return 'neutral'
 
-'''def analyze_review_custom(review):
+def analyze_review_custom(review):
   subthemes = ["theme1", "theme2"]
   sentiments = ["positive", "negative"]
-  return {"subthemes":subthemes,"sentiments":sentiments}'''
+  return {"subthemes":subthemes,"sentiments":sentiments}
 
 import pandas as pd
 data = pd.DataFrame({'Reviews':["Quick and simple website from which to choose the tyres I wanted. Good value, good quality tyres. Whole process from choice to fitting was easy."]})
